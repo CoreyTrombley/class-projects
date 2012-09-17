@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* index.html */
+body {
+	background: url(../images/splashbg.png);
+}
+#wrapper {
+	background: rgb(102,102,102);
+	width: 360px;
+	height: 500px;
+	border-radius: 30px;
+	box-shadow: 5px 5px 30px;
+	margin:50px auto;
+}
+#logo {
+	display: block;
+	padding-top: 20px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	padding-bottom: 20px;
+}
+#main input {
+	display: block;
+	margin: 0 auto;
+}
+#splash {
+	color:white;
+}
+#main {
+	text-align:center;
+	
+}
+#login {
+	display:block;
+	margin:5px auto !important;
+	background: url('../images/login.png') 0 0 no-repeat;
+	width:90px;
+	height:34px;
+	border:none;
+}
+#splash {
+	display: block;
+	margin: 30px auto 0 !important;
+}
+#signup {
+	display:block;
+	background: url('../images/signup.png') 0 0 no-repeat;
+	width:208px;
+	height:31px;
+	border:none;
+}
+.button-facebook {
+	display: block;
+	margin: 5px auto !important;
+	width: 200px;
+	height: 48px;
+	background: url('../images/login-sprite.png') 0 0 no-repeat;
+	border-radius: 10px;
+}
+.button-facebook:hover {
+	display: block;
+	background-position: 0px -120px;
+}
+.button-facebook:active {
+	display: block;
+	background-position: 0px -58px;
+}
+.button-twitter {
+	display: block;
+	margin: 5px auto 0;
+	width: 200px;
+	height: 48px;
+	background: url('../images/login-sprite.png') -220px 0 no-repeat;
+	border-radius:10px;
+}
+.button-twitter:hover {
+	display: block;
+	background-position: -220px -120px;
+}
+.button-twitter:active {
+	display: block;
+	background-position: -220px -58px;
+}
+
+
+/* signup page */
+.top_bar {
+	background: #aaa;
+	height: 110px;
+	padding: 10px;
+}
+
+nav {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	padding: 10px 0;
+	text-align: center;
+	background: #555;
+}
+nav a {
+	margin: 35px;
+	text-decoration: none;
+	color:white;
+}
+nav a:hover {
+	padding: 10px 0;
+	background: #777;
+	border-radius: 10px;
+}
+#smlogo {
+	position: relative;
+	z-index: 2;
+	display: block;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+#signupform {
+	margin: 50px auto;
+	width: 400px;
+	border-radius: 30px;
+	box-shadow: 5px 5px 30px black;
+	background-color: rgb(102,102,102);
+	text-align: center;
+	padding: 50px;
+	color:white;
+}
+
+
+
+
+
+
+
+
+

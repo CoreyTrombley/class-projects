@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+    <title>Quilible</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+    <header class="top_bar">
+        <img id="smlogo" src="images/quiliblelogo.png">
+    </header>
+    <div>
+
+        <form id="signupform">
+            <dl>
+                <dt>
+                    <label for="username">Username</label>
+                </dt>
+                <dd><input type="text" id="username" class="signupform required  alphanumunderscorehyphen" name="username" /></dd>
+            </dl>
+            <dl>
+                <dt>
+                    <label for="firstname">First Name</label>
+                </dt>
+                <dd><input type="text" id="firstname" class="signupform required  lettersonly  nowhitespace" name="firstname" /></dd>
+            </dl>
+            <dl>
+                <dt>
+                    <label for="lastname">Last Name</label>
+                </dt>
+                <dd><input type="text" id="lastname" class="signupform required  lettersonly  nowhitespace" name="lastname" /></dd>
+            </dl>
+            <dl>
+                <dt>
+                    <label for="password">Password</label>
+                </dt>
+                <dd><input type="password" id="password" class="signupform required" name="password" /></dd>
+            </dl>
+            <dl>
+                <dt>
+                    <label for="cpassword">Confirm Password</label>
+                </dt>
+                <dd><input type="password" id="cpassword" class="signupform required" name="cpassword" /></dd>
+            </dl>
+            <dl>
+                <dt>
+                    <label for="email">E-Mail</label>
+                </dt>
+                <dd><input type="text" id="email" class="signupform required  email" name="email" /></dd>
+            </dl>
+            <dl>
+                <dt>
+                    <label for="Disclamer">Did you read the disclamer?</label>
+                </dt>
+                <dd>
+                    <ul>
+                        <li><input type="checkbox" class="signupform required" id="Disclamer" name="Disclamer" value="1" /><label /></li>
+                    </ul>
+                </dd>
+            </dl>
+            <div id="submit_buttons">
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+    </div>
+    <footer>
+        <nav>
+            <a href="#">Home Feed</a>
+            <a href="#">Explor</a>
+            <a href="#">Achivements</a>
+            <a href="#">News</a>
+            <a href="#">Me</a>
+        </nav>
+    </footer>
+</body>
+</html>
