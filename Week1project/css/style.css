@@ -38,8 +38,15 @@ body {
 	margin:5px auto !important;
 	background: url('../images/login.png') 0 0 no-repeat;
 	width:90px;
-	height:34px;
+	height:35px;
 	border:none;
+	border-radius: 15px;
+	box-shadow: 0 5px 10px;
+}
+.login_box {
+	height: 25px;
+	width: 150px;
+	border-radius: 12px 12px;
 }
 #splash {
 	display: block;
@@ -49,8 +56,10 @@ body {
 	display:block;
 	background: url('../images/signup.png') 0 0 no-repeat;
 	width:208px;
-	height:31px;
+	height:32px;
 	border:none;
+	border-radius: 10px;
+	box-shadow: 0 5px 10px;
 }
 .button-facebook {
 	display: block;
@@ -131,11 +140,49 @@ nav a:hover {
 	color:white;
 }
 
-
-
-
-
-
-
-
-
+/* =========== Home Feed ========== */
+#catagory {
+	background: blue;
+}
+#all_followers {
+	background: aqua;
+}
+#friend_feed {
+	background: gray;
+}
+.left {
+	display: inline-block;
+	float:left;
+	margin: 0 49%;
+	background: red;
+}
+.right {
+	display: inline-block;
+	float: left;
+	margin: 0 49%;
+	background: green;
+}
+.post_time {
+	background: fuchsia;
+}
+.user_name {
+	background: teal;
+}
+.user_pic {
+	background: #392694
+}
+.achev_name {
+	background: #af73c8
+}
+.achev_pic {
+	background: #4ed27a
+}
+.points_label {
+	background: #222;
+}
+.stars {
+	background: #ccc;
+}
+.comments {
+	border: 1px solid black;
+}
