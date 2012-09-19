@@ -6,6 +6,7 @@ body {
 	background: url(../images/splashbg.png);
 }
 #wrapper {
+	
 	background: rgb(102,102,102);
 	width: 360px;
 	height: 500px;
@@ -44,6 +45,7 @@ body {
 	box-shadow: 0 5px 10px;
 }
 .login_box {
+	margin: 0 auto;
 	height: 25px;
 	width: 150px;
 	border-radius: 12px 12px;
